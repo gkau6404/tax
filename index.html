@@ -1,5 +1,5 @@
 <html>
- <head>
+  <head>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
@@ -13,64 +13,193 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
+    <!-- Navigation -->
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
       <label for="navi-toggle" class="navigation__button">
         <span class="navigation__icon">&nbsp;</span>
-        </label>
-        <div class="navigation__background">&nbsp;</div>
-        <nav class="navigation__nav">
-          <ul class="navigation__list">
-            <li class="navigation__item"><a href="#" class="navigation__link"><span>1)</span>Information</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link"><span>2)</span>Calculator</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link"><span>3)</span>Find Preparation Center</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link"><span>4)</span>Tax Tips</a></li>
-          </ul>
-        </nav>
+      </label>
+    <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#information" class="navigation__link"><span>1)</span>Information</a></li>
+            <li class="navigation__item"><a href="#Calculator" class="navigation__link"><span>2)</span>Calculator</a></li>
+            <li class="navigation__item"><a href="#center" class="navigation__link"><span>3)</span>Find Preparation Center</a></li>
+            <li class="navigation__item"><a href="#tax" class="navigation__link"><span>4)</span>Tax Tips</a></li>
+        </ul>
+      </nav>
     </div>
-  
-<header class="header">
-  <div class="header__logo-box">
-    <img src="https://db4nnybic3xty.cloudfront.net/images/speedy-2018/icons/dark-green/darkgreen-locations.png" alt="logo" class="header__logo">
-  </div>
-  <div class="header__text-box">
-    <h1 class="heading-primary">
-      <span class="heading-primary--main">Tax</span>
-      <span class="heading-primary--sub">April 15 "Due dates are closer than they appear"</span>
-    </h1>
-
-    <a href="#section-tours" class="btn btn--white btn--animated">Get information</a>
-  </div>
-
-</header>
-
+    <!--Header-->
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="https://db4nnybic3xty.cloudfront.net/images/speedy-2018/icons/dark-green/darkgreen-locations.png" alt="logo" class="header__logo">
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Tax</span>
+          <span class="heading-primary--sub">April 15 "Due dates are closer than they appear"</span>
+        </h1>
+        <a href="#section-tours" class="btn btn--white btn--animated">Get information</a>
+      </div>
+    </header>
   <main>
-  <section class="section-about">
+  <!--Information-->
+  <section class="section-information" id="information">
     <div class="u-center-text u-margin-bottom-big">
-      <h2 class="heading-secondary">
-        How it Works? 
-      </h2>
+      <h1 class="heading-secondary">
+        How does it work? 
+      </h1>
     </div>
-
     <div class="container">
       <div class="row">
         <div class="six columns">
-          <h3 class="heading-tertiary u-margin-bottom-small"> If you earned $66,000 or less last tax year, the City can help you file your taxes for free. You can file online or, if you make under $54,000, you can file in person.
-          </h3>
-          <a href="#" class="btn-text">Learn More &rarr;</a>
+          <h2> If you earned $66,000 or less last tax year, the City can help you file your taxes for free. You can file online or, if you make under $54,000, you can file in person.
+          </h2>
         </div>
-
-        <div class="six columns">
-          <div class="composition">
-            <img src="https://img.etimg.com/thumb/height-480,width-640,msid-66703613,imgsize-202719/tax4-thinkstock.jpg" class="composition__photo composition__photo--p1">
-            <img src="https://bloximages.chicago2.vip.townnews.com/tucson.com/content/tncms/assets/v3/editorial/1/94/1943667a-25ad-11e9-90df-dba461f6b90f/5c37ddef71a22.image.jpg?resize=1200%2C722" class="composition__photo composition__photo--p2">
-            <img src="https://assets.pcmag.com/media/images/636123-last-minute-tax-e-filers.jpg?thumb=y&width=810&height=456" class="composition__photo composition__photo--p3">
-
-          </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-screen-smartphone"></i>
+          </span>
+          <h4>
+            <strong>Documents</strong>
+          </h4>
+          <p class="text-faded mb-0">Gather Your Tax Documents</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-pencil"></i>
+          </span>
+          <h4>
+            <strong>Organize</strong>
+          </h4>
+          <p class="text-faded mb-0">Organize Paperwork.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-like"></i>
+          </span>
+          <h4>
+            <strong>File</strong>
+          </h4>
+          <p class="text-faded mb-0"> File Your Taxes
+            <i class="fas fa-heart"></i>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-mustache"></i>
+          </span>
+          <h4>
+            <strong>Relax</strong>
+          </h4>
+          <p class="text-faded mb-0">Your taxes have been filed and you no longer have to worry about missing that April deadline. </p>
         </div>
       </div>
     </div>
+  </section> 
+  <!--Calculator--> 
+  <section  class="section-Calculator" id="Calculator">
+      <div class="section-one">
+      <header class="splash" id="splash">
+        <h1>Income Tax Calculator</h1>
+      </header>
+      <form id="income-input">
+        <div class="form-group has-warning">
+          <label for="income-input">Enter Gross Annual Income:</label>
+          <input type="number" class="form-control form-control-warning" name="income-work" id="income-work" aria-describedby="emailHelp" placeholder="$" required>
+        </div>
+        <div class="form-group has-warning">
+          <label for="income-other">Enter Other Gross Income:</label>
+          <input type="number" class="form-control form-control-warning" name="income-other" id="income-other" aria-describedby="emailHelp" placeholder="$" required>
+        </div>
+        <p>Select Calendar Frequency for Tax Results:<p>
+        <select class="frequency" id="frequency">
+          <option value="1">Annual</span>
+          <option value="2">Monthly</span>
+          <option value="3">Quarterly</span>
+       </select>
+        <button onclick="getTax()" class="btn-secondary btn-lg"  id="submit"
+        type="button" form="income-input">Submit
+        </button>
+        </div>
+      </form>
+    </div>
+    <div class="spacer"></div>
+    <header id="section-two-header">
+      <h1 id="frequency-declared">Annual Income and Tax</h1>
+    </header>
+    <div class="section-two" id="section-two"><br><br>
+      <h1>Gross Income: <span id="income-marker"></span></h1>
+      <h1>Net Income: <span id="income-after"></span></h1>
+      <h1>Tax Contribution: <span id="tax-taken"></span><h1>
+      <h1>Tax Bracket: <span id="tax-bracket"></span></h1><br>
+      <br><br>
+      <strong><h5>**Seek professional advice for most valid figures.</h5></strong>
+    </div>
   </section>
+  <section class="section-find" id="center">
+     <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+    <div id="map"></div>
+    <script>
+      function initAutocomplete() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.740031, lng: -73.989964},
+          zoom: 12,
+          mapTypeId: 'roadmap'
+        });
+        var input = document.getElementById('pac-input');
+        var searchBox = new google.maps.places.SearchBox(input);
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+        map.addListener('bounds_changed', function() {
+          searchBox.setBounds(map.getBounds());
+        });
+        var markers = [];
+         searchBox.addListener('places_changed', function() {
+          var places = searchBox.getPlaces();
+          if (places.length == 0) {
+            return;
+          }
+          markers.forEach(function(marker) {
+            marker.setMap(null);
+          });
+          markers = [];
+           var bounds = new google.maps.LatLngBounds();
+          places.forEach(function(place) {
+            if (!place.geometry) {
+              console.log("Returned place contains no geometry");
+              return;
+            }
+            var icon = {
+              url: place.icon,
+              size: new google.maps.Size(71, 71),
+              origin: new google.maps.Point(0, 0),
+              anchor: new google.maps.Point(17, 34),
+              scaledSize: new google.maps.Size(25, 25)
+            };
+            markers.push(new google.maps.Marker({
+              map: map,
+              icon: icon,
+              title: place.name,
+              position: place.geometry.location
+            }));
+            if (place.geometry.viewport) {
+              bounds.union(place.geometry.viewport);
+            } else {
+              bounds.extend(place.geometry.location);
+            }
+          });
+          map.fitBounds(bounds);
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6dAXuhteecvGenZGBktXVJBu75rZKqrI&libraries=places&callback=initAutocomplete"
+         async defer></script>
+  </section>
+  
+  </main>
+  
 
 
 	    <!-- Bootstrap core JavaScript -->

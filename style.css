@@ -971,3 +971,175 @@ animation-iteration-count: 2;
 1200px-1800px: normal style apply
 1800px - + : big desktop
 */
+@import url('https://fonts.googleapis.com/css?family=Kosugi');
+
+.section-one {
+  display: static;
+  margin-top: 0;
+  padding-top: 0;
+  top: 0px;
+  width: 100%;
+  background-color: #55c57a;
+}
+
+.section-one h3 {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 0;
+}
+
+#splash {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#splash h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Kosugi', Verdana;
+  font-size: 2.8rem;
+}
+
+#income-input {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.dropdown-menu {
+  display: inline-block;
+}
+
+#submit {
+  margin-bottom: 50px;
+  display: inline;
+  position: relative;
+}
+
+.spacer {
+  position: absolute;
+  display: block;
+  width: 20%;
+}
+
+.section-two {
+  background-color: white;
+  font-family: 'Kosugi', Verdana;
+  text-align: justify;
+  display: block;
+  position: absolute;
+  width: 80%;
+  height: auto;
+  left: 20%;
+  color: black;
+}
+
+.section-two h1 {
+  font-size: 1.5rem;
+}
+
+.section-two span {
+  color: red;
+}
+
+.section-two h5 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#frequency {
+  margin-top: 0;
+  padding-top: 0;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+#frequency-declared {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-family: 'Kosugi', Verdana;
+  font-size: 2.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #submit {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #frequency {
+    width: 100%;
+  }
+  #frequency-declared {
+    font-size: 0.9rem;
+  }
+  #income-input {
+    width: 100%;
+  }
+
+  #income-work {
+    line-height: 3;
+  }
+
+  #income-other {
+    line-height: 3;
+  }
+
+  #splash h1 {
+    font-size: 2rem;
+  }
+  .section-two {
+    left: 5%;
+  }
+  .section-two h1 {
+    font-size: 0.9rem;
+  }
+  .section-one h3 {
+    font-size: 0.9rem;
+  }
+}
+#map {
+  height: 100%;
+}
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+.pac-container {
+  font-family: Roboto;
+}
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+#target {
+  width: 345px;
+}
